@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Check In/out</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="loader">
+
+    <div class="slider" style="--i:0">
+    </div>
+    <div class="slider" style="--i:1">
+    </div>
+    <div class="slider" style="--i:2">
+    </div>
+    <div class="slider" style="--i:3">
+    </div>
+    <div class="slider" style="--i:4">
+    </div>
+  </section>
+
+  <h1>Check In/out</h1>
+  <p id="output"></p>
+  <p id="inClassTime"></p>
+  <button class= "btn1 " onclick="getLocation()" > <span>Check In</span>
+  </button>
+  <button class= "btn2 " onclick="getLocation()" > <span>Check Out</span>
+  </button>
+  <script src="check.js"></script>
+  <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8bvJ3r64KSCPfFFaMgSXTg56Ro6lTLgA&libraries=places"></script>-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8bvJ3r64KSCPfFFaMgSXTg56Ro6lTLgA&callback=initMap"></script>
+
+
+</body>
+</html>
